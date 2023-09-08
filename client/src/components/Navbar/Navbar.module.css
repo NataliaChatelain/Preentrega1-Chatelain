@@ -1,0 +1,47 @@
+
+/* ---------DESKTOP & TABLET--------- */
+@media (min-width: 451px) {
+    .navbarDiv {
+        margin: 0;
+        position: fixed;
+        top: 0;
+        left:0;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        width: 100vw;
+        background-color: #ffffff;
+        z-index: 5;
+        border-bottom: 1px solid black;
+    }
+    .navbarLogo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img{
+        margin-bottom: 0;
+    }
+
+    .pNavbarDiv {
+        height: 60px;
+        margin-right: 2%;
+        padding-right: 1.5rem;
+        color: #4D4D4D;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: -0.2px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+    }
+
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+}
