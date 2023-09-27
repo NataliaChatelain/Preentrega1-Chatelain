@@ -1,0 +1,19 @@
+.mainDiv{
+margin-top: 25vh;
+}
+
+.h1Home {
+    margin-top: 20vh;
+    font-size: 50px;
+
+}
+
+.homeImg {
+    margin-top: 0;
+    max-height: 40vh;
+}
+
+.homeP {
+    width: 80vw;
+    margin-bottom: 0;
+}

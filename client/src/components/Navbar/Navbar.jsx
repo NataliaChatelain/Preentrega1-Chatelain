@@ -17,7 +17,7 @@ const Navbar = () => {
                     <Link to='/'>HOME</Link>
                 </p>
                 <p className={style.pNavbarDiv}>
-                    <Link to='/'>MAKING THE WINE</Link>
+                    <Link to='/makingthewine'>MAKING THE WINE</Link>
                 </p>
                 <p className={style.pNavbarDiv}>
                     <Link to='/'>TYPES OF WINE</Link>
@@ -26,7 +26,7 @@ const Navbar = () => {
                     <Link to='/'>FAMOUS VINEYARDS</Link>
                 </p>
                 <p className={style.pNavbarDiv}>
-                    <Link to='/'>BUY WINE</Link>
+                    <Link to='/shop'>BUY WINE</Link>
                 </p>
                 <CartWidget/>
             </div>
