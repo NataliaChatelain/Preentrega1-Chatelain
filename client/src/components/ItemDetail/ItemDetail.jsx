@@ -47,7 +47,7 @@ const ItemDetail = () => {
         </Link>
         {goToCart ? (
           <Link to='/cart'>
-            <button>Terminar compra</button>
+            <button>Checkout</button>
           </Link>
         ) : (
           <ItemCount initial={1} stock={wine.stock} onAdd={onAdd} />
