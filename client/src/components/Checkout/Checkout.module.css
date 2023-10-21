@@ -1,0 +1,36 @@
+.orderCheckout {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: row;
+}
+
+.productDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 30vw;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.cartImg {
+    max-height: 30vh;
+    width: auto;
+    object-fit:contain; 
+    
+}
+
+.checkoutDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vw;
+}
+
+.checkoutForm{
+    display: flex;
+    flex-direction: column;
+    width: 20vw;  
+}

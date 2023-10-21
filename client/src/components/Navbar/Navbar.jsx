@@ -28,7 +28,7 @@ const Navbar = () => {
                 <p className={style.pNavbarDiv}>
                     <Link to='/shop'>BUY WINE</Link>
                 </p>
-                <CartWidget/>
+                <Link to='/cart'><CartWidget/></Link>
             </div>
         </>
     )

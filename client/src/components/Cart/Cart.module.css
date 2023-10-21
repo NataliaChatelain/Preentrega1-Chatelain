@@ -1,0 +1,22 @@
+.cartContainer{
+   display: flex;
+   
+}
+
+.cartPriceCheckout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin-top: 220px;
+    padding: 1rem;
+    height: 200px;
+}
+
+
+.detailP {
+    text-align: left;
+}

@@ -1,0 +1,25 @@
+.cartContainer{
+    margin-top: 220px;
+}
+
+.cartDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 50vw;
+    border: 2px solid black;
+    border-radius: 1rem;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.cartImg {
+    max-height: 30vh;
+    width: auto;
+    object-fit:contain; 
+    
+}
+
+.detailP {
+    text-align: left;
+}

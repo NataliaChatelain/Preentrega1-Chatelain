@@ -16,7 +16,7 @@ const ItemCard = () => {
                 const data = await new Promise((resolve) => {
                     setTimeout(() => {
                         resolve(id ? products.filter(item => item.category === id) : products)
-                    }, 1000)
+                    }, 0)
                 })
                 setWines(data)
             } catch (error) {
